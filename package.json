@@ -3,14 +3,11 @@
   "version": "0.0.0",
   "private": false,
   "type": "module",
-  "homepage": "https://dharmaDev2025.github.io/my-portfolio",
+
   "scripts": {
   "dev": "vite",
   "build": "vite build",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
-  "push-deploy": "git add . && git commit -m \"update portfolio\" && git push origin main && npm run deploy"
+  "preview": "vite preview"
 },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
