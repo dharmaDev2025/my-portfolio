@@ -5,12 +5,13 @@
   "type": "module",
   "homepage": "https://dharmaDev2025.github.io/my-portfolio",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "push-deploy": "git add . && git commit -m \"update portfolio\" && git push origin main && npm run deploy"
+},
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
     "lucide-react": "^0.575.0",
